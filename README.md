@@ -72,7 +72,8 @@ file-integrity-monitor/
 # Clone the repository
 git clone https://github.com/rafid-remal/File-Integrity-Monitor.git
 cd file-integrity-monitor
-
+```
+```
 # Install dependencies
 pip install -r requirements.txt
 ```
