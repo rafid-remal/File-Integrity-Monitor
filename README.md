@@ -23,6 +23,7 @@
 
 ## 📁 Project Structure
 
+```
 file-integrity-monitor/
 │
 ├── src/
@@ -41,7 +42,7 @@ file-integrity-monitor/
 ├── requirements.txt     # Python dependencies
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## ⚙️ How It Works
