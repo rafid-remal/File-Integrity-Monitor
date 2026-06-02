@@ -94,11 +94,13 @@ python src/monitor.py --watch --interval 30
 
 ## 📊 Sample Output
 
+```
 [✔] Baseline loaded — 12 files tracked
 [!] MODIFIED  →  monitored/config.cfg
 [!] DELETED   →  monitored/secrets.txt
 [+] NEW FILE  →  monitored/unknown_script.sh
 Report saved → reports/report_2025-06-02_14-32.txt
+```
 
 ---
 
