@@ -104,9 +104,11 @@ echo "config" > monitored/config.ini
 python3 src/monitor.py
 ```
 ## Modify: create/modify/delete files in monitored/ and refresh the browser to see the alerts show up.
+## Go to your repo
 ```
-cd ~/my-projects/file-integrity-monitor/file-integrity-monitor
-
+cd ~/File-Integrity-Monitor/file-integrity-monitor
+```
+```
 # create a file
 echo "test" > monitored/testfile.txt
 
