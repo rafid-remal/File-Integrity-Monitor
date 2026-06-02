@@ -82,16 +82,20 @@ pip install -r requirements.txt
 ```bash
 # Build the baseline (first time)
 python src/monitor.py --baseline
-
+```
+```
 # Run integrity check
 python src/monitor.py --check
-
+```
+```
 # Watch continuously (optional)
 python src/monitor.py --watch --interval 30
-
+```
+```
 echo "hello" > monitored/file1.txt
 echo "config" > monitored/config.ini
-
+```
+```
 python3 src/monitor.py
 ```
 
