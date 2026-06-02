@@ -69,27 +69,25 @@ file-integrity-monitor/
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/rafid-remal/File-Integrity-Monitor.git
-cd file-integrity-monitor
+cd File-Integrity-Monitor
 ```
 ```
-# Install dependencies
 pip install -r requirements.txt
+```
+```
+cd file-integrity-monitor
 ```
 
 ### Usage
 
 ```bash
-# Build the baseline (first time)
 python src/monitor.py --baseline
 ```
 ```
-# Run integrity check
 python src/monitor.py --check
 ```
 ```
-# Watch continuously (optional)
 python src/monitor.py --watch --interval 30
 ```
 ```
@@ -98,6 +96,13 @@ echo "config" > monitored/config.ini
 ```
 ```
 python3 src/monitor.py
+```
+```
+python3 src/webapp.py
+```
+## Go to any Browser and search
+```
+http://127.0.0.1:5000
 ```
 
 ---
