@@ -39,13 +39,13 @@ file-integrity-monitor/
 │   └── webapp.py               # Web dashboard and user interface
 │   
 ├── data/
-│   └── baseline.json    # Stored file hashes (auto-generated)
+│   └── baseline.json           # Stored file hashes (auto-generated)
 │
 ├── monitored/
-│   └── sample.txt       # Example file being monitored
+│   └── sample.txt              # Example file being monitored
 │
-├── reports/             # Generated integrity reports
-├── requirements.txt     # Python dependencies
+├── reports/                    # Generated integrity reports
+├── requirements.txt            # Python dependencies
 ├── .gitignore
 └── README.md
 ```
