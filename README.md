@@ -69,7 +69,7 @@ file-integrity-monitor/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/file-integrity-monitor.git
+git clone https://github.com/rafid-remal/File-Integrity-Monitor.git
 cd file-integrity-monitor
 
 # Install dependencies
