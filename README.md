@@ -118,16 +118,16 @@ echo "changed" >> monitored/testfile.txt
 # delete it
 rm monitored/testfile.txt
 ```
-### Terminal 1
+## ⚙️ Terminal 1
 ```
 python3 src/realtime_monitor.py
 ```
-### Terminal 2
+## ⚙️ Terminal 2
 ```
 python src/webapp.py
 ```
 
-## Go to any Browser and search
+### Go to any Browser and search
 ```
 http://127.0.0.1:5000
 ```
