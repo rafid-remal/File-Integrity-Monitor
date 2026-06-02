@@ -27,16 +27,16 @@
 file-integrity-monitor/
 │
 ├── src/
-│   ├── monitor.py       # Core monitoring logic
-│   ├── database.py      # Baseline storage & retrieval
-│   ├── hash_utils.py    # Hashing functions (SHA-256)
-│   ├── config.py        # Configuration settings
-│   ├── alerts.py
-│   ├── hashing.py
-│   ├── realtime_monitor.py
-│   ├── report.py
-│   ├── scheduler.py
-│   └── webapp.py
+│   ├── monitor.py       	# Core monitoring logic
+│   ├── database.py      	# Baseline storage & retrieval
+│   ├── hash_utils.py    	# Hashing functions (SHA-256)
+│   ├── config.py        	# Configuration settings
+│   ├── alerts.py        	# Notification and alerting systems
+│   ├── hashing.py       	# File scanning and hash verification
+│   ├── realtime_monitor.py	# Live file system event tracking
+│   ├── report.py		# Integrity status and audit reporting
+│   ├── scheduler.py		# Periodic task and scan scheduler
+│   └── webapp.py		# Web dashboard and user interface
 │   
 ├── data/
 │   └── baseline.json    # Stored file hashes (auto-generated)
