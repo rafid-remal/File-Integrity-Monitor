@@ -118,11 +118,11 @@ echo "changed" >> monitored/testfile.txt
 # delete it
 rm monitored/testfile.txt
 ```
-# terminal 1
+### Terminal 1
 ```
 python3 src/realtime_monitor.py
 ```
-# terminal 2
+### Terminal 2
 ```
 python src/webapp.py
 ```
