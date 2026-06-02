@@ -30,8 +30,14 @@ file-integrity-monitor/
 │   ├── monitor.py       # Core monitoring logic
 │   ├── database.py      # Baseline storage & retrieval
 │   ├── hash_utils.py    # Hashing functions (SHA-256)
-│   └── config.py        # Configuration settings
-│
+│   ├── config.py        # Configuration settings
+│   ├── alerts.py
+│   ├── hashing.py
+│   ├── realtime_monitor.py
+│   ├── report.py
+│   ├── scheduler.py
+│   └── webapp.py
+│   
 ├── data/
 │   └── baseline.json    # Stored file hashes (auto-generated)
 │
@@ -97,9 +103,28 @@ echo "config" > monitored/config.ini
 ```
 python3 src/monitor.py
 ```
+## Modify: create/modify/delete files in monitored/ and refresh the browser to see the alerts show up.
 ```
-python3 src/webapp.py
+cd ~/my-projects/file-integrity-monitor/file-integrity-monitor
+
+# create a file
+echo "test" > monitored/testfile.txt
+
+# modify it
+echo "changed" >> monitored/testfile.txt
+
+# delete it
+rm monitored/testfile.txt
 ```
+# terminal 1
+```
+python3 src/realtime_monitor.py
+```
+# terminal 2
+```
+python src/webapp.py
+```
+
 ## Go to any Browser and search
 ```
 http://127.0.0.1:5000
